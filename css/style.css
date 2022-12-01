@@ -1,0 +1,10 @@
+/* CSS Document */
+
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}

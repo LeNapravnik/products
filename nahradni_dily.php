@@ -26,16 +26,12 @@
             <?php 
                 if(!empty($product_arr)){
                     foreach($product_arr as $item){
-                        echo $item["name"];
                         if(isset($item["parts"])){
-                            echo " - Náhradní díly: <ul>";
+                            echo $item["name"] . " - Náhradní díly: <ul>";
                             foreach($item["parts"] as $part){
                                 echo "<li>" . $part . "</li>";
                             }
                             echo "</ul><br>";
-                        }
-                        else {
-                           echo "<br>";
                         }
                     }
                 }

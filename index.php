@@ -8,7 +8,7 @@
     <nav class="main-nav">
 		<ul class="menu">
             <li><a href="/produkty.php">Zobrazit seznam produktů</a></li>
-            <li><a href="/nahradni_dily.php">Zobrazit náhradní díly</a></li>
+            <li><a href="/nahradni_dily.php">Zobrazit produkty s náhradními díly</a></li>
 		</ul>
     </nav>
     <section>
